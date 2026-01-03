@@ -98,7 +98,7 @@
             display-name = "Default Layer";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp A   &trans     &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &kp B   &kp A   &trans     &trans   &trans
 &trans  &trans  &trans  &trans  &trans  &kp C   &kp M   &kp COMMA  &kp DOT  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans   &trans
             >;
