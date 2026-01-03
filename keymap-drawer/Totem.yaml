@@ -123,7 +123,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+L
-  FN:
+  '3':
   - F1
   - F2
   - F3
@@ -319,4 +319,4 @@ combos:
 - p: [0, 1]
   k: $$mdi:keyboard-tab$$
 - p: [24, 25]
-  k: {t: FN, h: toggle}
+  k: {t: '3', h: toggle}
