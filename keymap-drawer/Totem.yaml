@@ -156,12 +156,12 @@ layers:
   - PLAY
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:backspace-reverse-outline$$
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-shift$$
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
   - {t: Default Layer, h: toggle}
   '4':
