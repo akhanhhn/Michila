@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - {t: G, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: H, h: RIGHT GUI}
+  - {t: H, h: '$$mdi:apple-keyboard-command$$'}
   - J
   - K
   - L
@@ -31,7 +31,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:keyboard-esc$$', h: Lower Layer}
   - $$mdi:keyboard-space$$
@@ -72,7 +72,7 @@ layers:
   - '2'
   - '3'
   - {t: ., s: '>'}
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:backspace-reverse-outline$$
   - {type: held}
   - $$mdi:keyboard-space$$
