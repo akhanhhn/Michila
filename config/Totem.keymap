@@ -111,7 +111,7 @@
         };
 
         leftBracket {
-            bindings = <&kp LC(LBKT)>;
+            bindings = <&kp LBKT>;
             key-positions = <16 17>;
         };
 
@@ -171,7 +171,7 @@
         };
 
         toLayer3 {
-            bindings = <&to 3>;
+            bindings = <&tog 3>;
             key-positions = <24 25>;
         };
     };
