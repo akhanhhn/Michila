@@ -222,7 +222,7 @@
 &trans           &trans          &trans         &trans        &trans     &kp SLASH     &kp N7                 &kp N8        &kp N9        &kp MINUS
 &trans           &kp LEFT_ARROW  &kp DOWN       &kp UP_ARROW  &kp RIGHT  &kp ASTERISK  &kp NUMBER_4           &kp NUMBER_5  &kp NUMBER_6  &kp PLUS
 &kp PRINTSCREEN  &kp HOME        &kp PAGE_DOWN  &kp PAGE_UP   &kp END    &kp COMMA     &kp NUMBER_1           &kp NUMBER_2  &kp NUMBER_3  &kp DOT
-&mt RCTRL TAB    &kp DELETE      &trans         &kp SPACE     &trans     &trans        &mt RIGHT_SHIFT ENTER  &trans        &kp N0        &kp BACKSPACE
+&mt RCTRL TAB    &kp LEFT_GUI    &trans         &kp SPACE     &trans     &trans        &mt RIGHT_SHIFT ENTER  &trans        &kp N0        &kp BACKSPACE
             >;
 
             sensor-bindings =
@@ -246,10 +246,10 @@
 
         FN {
             bindings = <
-&kp F1  &kp F2   &kp F3   &kp F4   &trans  &kp RCTRL      &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp F9         &kp F10
-&kp F5  &kp F6   &kp F7   &kp F8   &trans  &kp RIGHT_GUI  &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &kp C_MUTE     &trans
-&kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans         &kp C_PREVIOUS        &kp C_NEXT            &kp C_PAUSE    &kp C_PLAY
-&trans  &kp DEL  &trans   &trans   &trans  &trans         &kp RIGHT_SHIFT       &trans                &kp RIGHT_ALT  &to 0
+&kp F1   &kp F2   &kp F3  &kp F4  &kp F5   &kp RCTRL      &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans         &trans
+&kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &kp RIGHT_GUI  &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &kp C_MUTE     &trans
+&kp F11  &kp F12  &trans  &trans  &trans   &trans         &kp C_PREVIOUS        &kp C_NEXT            &kp C_PAUSE    &kp C_PLAY
+&trans   &kp DEL  &trans  &trans  &trans   &trans         &kp RIGHT_SHIFT       &trans                &kp RIGHT_ALT  &to 0
             >;
 
             sensor-bindings =
