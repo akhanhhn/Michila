@@ -299,9 +299,9 @@
 
         mouse {
             bindings = <
-&trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP     &msc SCRL_RIGHT  &trans    &trans     &trans     &trans     &trans
-&trans  &trans          &mmv MOVE_UP    &trans           &trans           &mkp MB5  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans
-&trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans           &mkp MB4  &trans     &trans     &trans     &trans
+&none   &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP     &msc SCRL_RIGHT  &none     &none      &none      &none      &none
+&none   &none           &mmv MOVE_UP    &none            &none            &mkp MB5  &mkp LCLK  &mkp MCLK  &mkp RCLK  &none
+&none   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none            &mkp MB4  &none      &none      &none      &none
 &trans  &trans          &trans          &trans           &trans           &trans    &trans     &trans     &trans     &to 0
             >;
         };
