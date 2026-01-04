@@ -73,7 +73,7 @@ layers:
   - '3'
   - {t: ., s: '>'}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
-  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:apple-keyboard-command$$
   - {type: held}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -128,26 +128,26 @@ layers:
   - F2
   - F3
   - F4
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F5
   - $$mdi:apple-keyboard-control$$
   - $$mdi:brightness-7$$
   - $$mdi:brightness-5$$
-  - F9
-  - F10
-  - F5
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - F6
   - F7
   - F8
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F9
+  - F10
   - RIGHT GUI
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - F9
-  - F10
   - F11
   - F12
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - PREVIOUS
