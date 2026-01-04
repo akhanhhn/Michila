@@ -15,8 +15,8 @@ layers:
   - S
   - D
   - F
-  - {t: G, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: H, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: G, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: H, h: '$$mdi:apple-keyboard-shift$$'}
   - J
   - K
   - L
@@ -39,7 +39,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - Raise Layer
-  - $$mdi:apple-keyboard-option$$
+  - '&dance_alt_capsWord'
   - {t: '$$mdi:backspace$$', type: backspace}
   Lower Layer:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -139,7 +139,7 @@ layers:
   - F8
   - F9
   - F10
-  - RIGHT GUI
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - $$mdi:volume-off$$
@@ -155,7 +155,7 @@ layers:
   - PAUSE
   - PLAY
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
