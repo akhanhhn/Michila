@@ -44,8 +44,12 @@
     flavor = "balanced";
 };
 
-&lt { tapping-term-ms = <300>; 
+&lt {
+    tapping-term-ms = <300>;
     flavor = "balanced";
+};
+
+&caps_word {
 };
 
 / {
@@ -91,6 +95,13 @@
             bindings = <&msc SCRL_RIGHT>, <&msc SCRL_LEFT>;
 
             tap-ms = <20>;
+        };
+
+        dance_alt_capsWord: dance_alt_capsWord {
+            compatible = "zmk,behavior-tap-dance";
+            label = "DANCE_ALT_CAPSWORD";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT>, <&caps_word>;
         };
     };
 
@@ -209,10 +220,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q          &kp W         &kp E         &kp R      &mt LCTRL T     &mt RCTRL Y     &kp U                 &kp I      &kp O          &kp P
-&kp A          &kp S         &kp D         &kp F      &mt LEFT_GUI G  &mt LEFT_GUI H  &kp J                 &kp K      &kp L          &kp SEMICOLON
-&kp Z          &kp X         &kp C         &kp V      &kp B           &kp N           &kp M                 &kp COMMA  &kp DOT        &kp SLASH
-&mt LCTRL TAB  &kp LEFT_GUI  &lt 1 ESCAPE  &kp SPACE  &mkp LCLK       &mkp RCLK       &mt LEFT_SHIFT ENTER  &mo 2      &kp RIGHT_ALT  &kp BACKSPACE
+&kp Q          &kp W         &kp E         &kp R      &mt LCTRL T       &mt RCTRL Y       &kp U                 &kp I      &kp O                &kp P
+&kp A          &kp S         &kp D         &kp F      &mt LEFT_SHIFT G  &mt LEFT_SHIFT H  &kp J                 &kp K      &kp L                &kp SEMICOLON
+&kp Z          &kp X         &kp C         &kp V      &kp B             &kp N             &kp M                 &kp COMMA  &kp DOT              &kp SLASH
+&mt LCTRL TAB  &kp LEFT_GUI  &lt 1 ESCAPE  &kp SPACE  &mkp LCLK         &mkp RCLK         &mt LEFT_SHIFT ENTER  &mo 2      &dance_alt_capsWord  &kp BACKSPACE
             >;
 
             sensor-bindings = <&Scroll_D_U>, <&Scroll_LR>;
@@ -248,10 +259,10 @@
 
         FN {
             bindings = <
-&kp F1   &kp F2   &kp F3  &kp F4  &kp F5   &kp RCTRL      &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans         &trans
-&kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &kp RIGHT_GUI  &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &kp C_MUTE     &trans
-&kp F11  &kp F12  &trans  &trans  &trans   &trans         &kp C_PREVIOUS        &kp C_NEXT            &kp C_PAUSE    &kp C_PLAY
-&trans   &kp DEL  &trans  &trans  &trans   &trans         &kp RIGHT_SHIFT       &trans                &kp RIGHT_ALT  &to 0
+&kp F1   &kp F2        &kp F3  &kp F4  &kp F5   &kp RCTRL       &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans         &trans
+&kp F6   &kp F7        &kp F8  &kp F9  &kp F10  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &kp C_MUTE     &trans
+&kp F11  &kp F12       &trans  &trans  &trans   &trans          &kp C_PREVIOUS        &kp C_NEXT            &kp C_PAUSE    &kp C_PLAY
+&trans   &kp LEFT_GUI  &trans  &trans  &trans   &trans          &kp RIGHT_SHIFT       &trans                &kp RIGHT_ALT  &to 0
             >;
 
             sensor-bindings =
