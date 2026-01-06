@@ -32,7 +32,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, h: '$$mdi:apple-keyboard-option$$', s: '?'}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
-  - $$mdi:apple-keyboard-command$$
+  - '&dance_GUI_ctrlA'
   - {t: '$$mdi:keyboard-esc$$', h: Lower Layer}
   - $$mdi:keyboard-space$$
   - $$mdi:mouse-left-click-outline$$
