@@ -42,7 +42,7 @@ layers:
   - '&dance_alt_capsWord'
   - {t: '$$mdi:backspace$$', type: backspace}
   Lower Layer:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F2
   - $$mdi:pan-left$$
   - $$mdi:pan-down$$
   - $$mdi:pan-up$$
