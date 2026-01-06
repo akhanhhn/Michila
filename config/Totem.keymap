@@ -52,6 +52,8 @@
 &caps_word {
 };
 
+&sk { quick-release; };
+
 / {
     behaviors {
         Scroll_D_U: Scroll_D_U {
