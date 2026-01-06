@@ -270,6 +270,13 @@
             bindings = <&kp COLON &kp RPAR &kp RPAR &kp RPAR>;
             label = "HIHI";
         };
+
+        yankInVim: yankInVim {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp DQT &kp PLUS &kp Y>;
+            label = "YANKINVIM";
+        };
     };
 
     keymap {
@@ -305,7 +312,7 @@
             display-name = "Raise Layer";
             bindings = <
 &kp EXCLAMATION  &kp AT_SIGN    &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET       &kp AMPERSAND  &kp ASTERISK  &kp GRAVE      &laughing
-&notEqual        &toRightArrow  &trans    &trans      &trans       &kp MINUS       &kp EQUAL      &kp SQT       &kp BACKSLASH  &kp LC(LA(DELETE))
+&notEqual        &toRightArrow  &trans    &yankInVim  &trans       &kp MINUS       &kp EQUAL      &kp SQT       &kp BACKSLASH  &kp LC(LA(DELETE))
 &trans           &trans         &trans    &trans      &trans       &kp UNDERSCORE  &kp PLUS       &kp TILDE     &kp PIPE       &kp QUESTION
 &trans           &trans         &trans    &trans      &trans       &trans          &trans         &trans        &trans         &kp LG(L)
             >;
