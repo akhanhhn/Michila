@@ -129,6 +129,13 @@
             flavor = "balanced";
             tapping-term-ms = <140>;
         };
+
+        shift_capsWord_capsLocks: shift_capsWord_capsLocks {
+            compatible = "zmk,behavior-tap-dance";
+            label = "SHIFT_CAPSWORD_CAPSLOCKS";
+            #binding-cells = <0>;
+            bindings = <&sk LEFT_SHIFT>, <&caps_word>, <&kp CAPS>;
+        };
     };
 
     combos {
@@ -259,10 +266,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q          &kp W                         &kp E         &kp R      &mt LCTRL T       &mt RCTRL Y       &kp U                 &kp I        &kp O                &kp P
-&kp A          &kp S                         &kp D         &kp F      &mt LEFT_SHIFT G  &mt LEFT_SHIFT H  &kp J                 &kp K        &kp L                &kp SEMICOLON
-&kp Z          &kp X                         &kp C         &kp V      &kp B             &kp N             &kp M                 &kp COMMA    &kp DOT              &kp SLASH
-&mt LCTRL TAB  &holdTap LEFT_GUI LEFT_SHIFT  &lt 1 ESCAPE  &kp SPACE  &mkp LCLK         &mkp RCLK         &mt LEFT_SHIFT ENTER  &layerMouse  &dance_alt_capsWord  &kp BACKSPACE
+&kp Q          &kp W         &kp E         &kp R      &mt LCTRL T       &mt RCTRL Y       &kp U                 &kp I        &kp O                      &kp P
+&kp A          &kp S         &kp D         &kp F      &mt LEFT_SHIFT G  &mt LEFT_SHIFT H  &kp J                 &kp K        &kp L                      &kp SEMICOLON
+&kp Z          &kp X         &kp C         &kp V      &kp B             &kp N             &kp M                 &kp COMMA    &kp DOT                    &mt LEFT_ALT SLASH
+&mt LCTRL TAB  &kp LEFT_GUI  &lt 1 ESCAPE  &kp SPACE  &mkp LCLK         &mkp RCLK         &mt LEFT_SHIFT ENTER  &layerMouse  &shift_capsWord_capsLocks  &kp BACKSPACE
             >;
 
             sensor-bindings = <&Scroll_D_U>, <&Scroll_LR>;
