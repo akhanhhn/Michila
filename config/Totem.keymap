@@ -59,7 +59,10 @@
     /delete-property/ ignore-modifiers;
 };
 
-&sl { lazy; };
+&sl {
+    lazy;
+    bindings = <&sl>;
+};
 
 / {
     behaviors {
