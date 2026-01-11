@@ -290,7 +290,7 @@
 &kp Q          &kp W             &kp E         &kp R      &mt LCTRL T       &mt RCTRL Y       &kp U    &kp I                  &kp O                      &kp P
 &kp A          &kp S             &kp D         &kp F      &mt LEFT_SHIFT G  &mt LEFT_SHIFT H  &kp J    &kp K                  &kp L                      &kp SEMICOLON
 &kp Z          &kp X             &kp C         &kp V      &kp B             &kp N             &kp M    &kp COMMA              &kp DOT                    &mt LEFT_ALT SLASH
-&mt LCTRL TAB  &dance_GUI_ctrlA  &lt 1 ESCAPE  &kp SPACE  &sl 3             &mkp RCLK         &kp RET  &raise_FN_mouse_layer  &shift_capsWord_capsLocks  &kp BACKSPACE
+&mt LCTRL TAB  &dance_GUI_ctrlA  &lt 1 ESCAPE  &kp SPACE  &mkp MCLK         &mkp RCLK         &kp RET  &raise_FN_mouse_layer  &shift_capsWord_capsLocks  &kp BACKSPACE
             >;
 
             sensor-bindings = <&Scroll_D_U>, <&Scroll_LR>;
