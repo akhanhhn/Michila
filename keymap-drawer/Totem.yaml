@@ -21,7 +21,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '3', h: '$$mdi:gesture-tap-hold$$'}
+  - Z
   - X
   - C
   - V
@@ -144,7 +144,7 @@ layers:
   - $$mdi:volume-high$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: F11, type: held}
+  - F11
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
