@@ -59,6 +59,9 @@
     /delete-property/ ignore-modifiers;
 };
 
+&sl {
+};
+
 };
 
 / {
@@ -280,6 +283,12 @@ macros {
         bindings = <&none &kp DQT &kp PLUS &kp Y>;
         label = "YANKINVIM";
     };
+};
+
+macros {
+};
+
+behaviors {
 };
 
 keymap {
