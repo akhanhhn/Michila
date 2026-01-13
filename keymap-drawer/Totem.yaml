@@ -97,7 +97,7 @@ layers:
   - '&toRightArrow'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&yankInVim'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&https'
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '''', s: '"'}
