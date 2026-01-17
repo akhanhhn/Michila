@@ -134,11 +134,11 @@
     };
 
     macros {
-        hihi: haha {
+        hihi: hihi {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&none &kp COLON &kp RPAR &kp RPAR &kp RPAR>;
-            label = "HAHA";
+            label = "HIHI";
         };
 
         yankInVim: yankInVim {
