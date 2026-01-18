@@ -125,7 +125,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "RAISE_FN_MOUSE_LAYER";
             #binding-cells = <0>;
-            bindings = <&mo 2>, <&none>, <&sl 3>, <&to 4>;
+            bindings = <&mo 2>, <&to 4>, <&sl 3>, <&to 4>;
         };
 
         holdTap: holdTap {
