@@ -20,7 +20,7 @@ layers:
   - J
   - K
   - L
-  - {t: '$$mdi:apple-keyboard-control$$', h: ;}
+  - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
   - Z
   - X
   - C
