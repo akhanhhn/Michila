@@ -5,8 +5,8 @@ layers:
   - W
   - E
   - R
-  - {t: T, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: Y, h: '$$mdi:apple-keyboard-control$$'}
+  - T
+  - Y
   - U
   - I
   - O
@@ -15,12 +15,12 @@ layers:
   - S
   - D
   - F
-  - {t: G, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: H, h: '$$mdi:apple-keyboard-shift$$'}
+  - G
+  - H
   - J
   - K
   - L
-  - {t: ;, s: ':'}
+  - {t: '$$mdi:apple-keyboard-control$$', h: ;}
   - Z
   - X
   - C
