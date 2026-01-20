@@ -189,7 +189,7 @@
             display-name = "Default Layer";
             bindings = <
                &kp Q  &kp W         &kp E         &kp R      &kp T  &kp Y            &kp U      &kp I      &kp O                     &kp P
-&mo 3          &kp A  &kp S         &kp D         &kp F      &kp G  &kp H            &kp J      &kp K      &kp L                     &kp SEMI            &kp LEFT
+&kp ESCAPE     &kp A  &kp S         &kp D         &kp F      &kp G  &kp H            &kp J      &kp K      &kp L                     &kp SEMI            &kp LEFT
 &mt LCTRL TAB  &kp Z  &kp X         &kp C         &kp V      &kp B  &kp N            &kp M      &kp COMMA  &kp DOT                   &mt LEFT_ALT SLASH  &kp BACKSPACE
                       &kp LEFT_GUI  &lt 1 ESCAPE  &kp SPACE  &mo 3  &lt 1 BACKSPACE  &kp ENTER  &kp SPACE  &shift_capsword_capslock
             >;
