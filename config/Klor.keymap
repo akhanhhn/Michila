@@ -212,7 +212,7 @@
         lower_layer {
             display-name = "Lower Layer";
             bindings = <
-             &trans           &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp SLASH     &kp N7        &kp N8        &kp N9        &kp MINUS
+             &mkp MCLK        &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp SLASH     &kp N7        &kp N8        &kp N9        &kp MINUS
 &bootloader  &trans           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT        &kp ASTERISK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS    &bootloader
 &kp TAB      &kp PRINTSCREEN  &kp HOME        &kp PAGE_DOWN   &kp PG_UP     &kp END          &kp COMMA     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &kp BACKSPACE
                               &kp LEFT_GUI    &trans          &kp SPACE     &trans           &trans        &trans        &trans        &trans
