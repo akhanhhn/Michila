@@ -44,18 +44,32 @@
 
 / {
     behaviors {
-        TD01: TD01 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD01";
-            #binding-cells = <0>;
-            bindings = <&kp MINUS>, <&kp PERIOD>;
-        };
-
         shift_capsword_capslock: shift_capsword_capslock {
             compatible = "zmk,behavior-tap-dance";
             label = "SHIFT_CAPSWORD_CAPSLOCK";
             #binding-cells = <0>;
-            bindings = <&kt LEFT_SHIFT>, <&caps_word>, <&kp CAPSLOCK>;
+            bindings = <&sk LEFT_SHIFT>, <&caps_word>, <&kp CAPSLOCK>;
+        };
+
+        lower_FN: lower_FN {
+            compatible = "zmk,behavior-tap-dance";
+            label = "LOWER_FN";
+            #binding-cells = <0>;
+            bindings = <&mo 1>, <&to 3>;
+        };
+
+        raise_mouse: raise_mouse {
+            compatible = "zmk,behavior-tap-dance";
+            label = "RAISE_MOUSE";
+            #binding-cells = <0>;
+            bindings = <&mo 2>, <&to 4>;
+        };
+
+        GUI_ctrlA: GUI_ctrlA {
+            compatible = "zmk,behavior-tap-dance";
+            label = "GUI_CTRLA";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_GUI>, <&kp LC(A)>;
         };
     };
 
@@ -188,10 +202,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-               &kp Q  &kp W         &kp E         &kp R      &kp T  &kp Y            &kp U      &kp I      &kp O                     &kp P
-&kp ESCAPE     &kp A  &kp S         &kp D         &kp F      &kp G  &kp H            &kp J      &kp K      &kp L                     &kp SEMI            &kp LEFT
-&mt LCTRL TAB  &kp Z  &kp X         &kp C         &kp V      &kp B  &kp N            &kp M      &kp COMMA  &kp DOT                   &mt LEFT_ALT SLASH  &kp BACKSPACE
-                      &kp LEFT_GUI  &lt 1 ESCAPE  &kp SPACE  &mo 3  &lt 1 BACKSPACE  &kp ENTER  &kp SPACE  &shift_capsword_capslock
+               &kp Q  &kp W       &kp E      &kp R      &kp T  &kp Y            &kp U      &kp I         &kp O                     &kp P
+&kp ESCAPE     &kp A  &kp S       &kp D      &kp F      &kp G  &kp H            &kp J      &kp K         &kp L                     &kp SEMI            &kp LEFT
+&mt LCTRL TAB  &kp Z  &kp X       &kp C      &kp V      &kp B  &kp N            &kp M      &kp COMMA     &kp DOT                   &mt LEFT_ALT SLASH  &kp BACKSPACE
+                      &GUI_ctrlA  &lower_FN  &kp SPACE  &mo 3  &lt 1 BACKSPACE  &kp ENTER  &raise_mouse  &shift_capsword_capslock
             >;
         };
 
@@ -224,12 +238,12 @@
             >;
         };
 
-        layer_4 {
+        mouse {
             bindings = <
-        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        &mkp MCLK  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP     &msc SCRL_RIGHT  &trans  &trans  &trans  &trans  &trans
+&trans  &mkp MB5   &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp HOME         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &mkp MB4   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp END          &trans  &trans  &trans  &trans  &trans  &trans
+                   &trans          &trans          &trans           &trans           &trans  &trans  &trans  &trans
             >;
         };
 
