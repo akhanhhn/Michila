@@ -22,7 +22,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - $$mdi:arrow-left-bold$$
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - Z
   - X
@@ -39,12 +39,12 @@ layers:
   - '&lower_FN'
   - $$mdi:keyboard-space$$
   - FN
-  - {t: '$$mdi:backspace$$', h: Lower Layer}
+  - mouse
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&raise_mouse'
   - '&shift_capsword_capslock'
   Lower Layer:
-  - $$mdi:mouse-scroll-wheel$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-left$$
   - $$mdi:pan-down$$
   - $$mdi:pan-up$$
@@ -82,10 +82,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '0'
   Raise Layer:
   - '!'
   - '@'
@@ -96,7 +96,7 @@ layers:
   - '&'
   - '*'
   - {t: '`', s: '~'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&laughing'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&notEqual'
   - '&toRightArrow'
@@ -135,7 +135,7 @@ layers:
   - F3
   - F4
   - F5
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -146,12 +146,12 @@ layers:
   - F8
   - F9
   - F10
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - F11
   - F12
@@ -171,7 +171,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-shift$$
   mouse:
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:pan-left$$
@@ -211,7 +211,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
