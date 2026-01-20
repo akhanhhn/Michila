@@ -106,7 +106,7 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '''', s: '"'}
-  - \
+  - {t: \, s: '|'}
   - Ctl+Alt+$$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
