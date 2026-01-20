@@ -44,7 +44,7 @@ layers:
   - '&raise_mouse'
   - '&shift_capsword_capslock'
   Lower Layer:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:mouse-scroll-wheel$$
   - $$mdi:pan-left$$
   - $$mdi:pan-down$$
   - $$mdi:pan-up$$
