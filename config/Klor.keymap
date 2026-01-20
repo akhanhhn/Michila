@@ -42,6 +42,11 @@
 
 &lt { tapping-term-ms = <300>; };
 
+&sk {
+    quick-release;
+    lazy;
+};
+
 / {
     behaviors {
         shift_capsword_capslock: shift_capsword_capslock {
@@ -70,6 +75,13 @@
             label = "GUI_CTRLA";
             #binding-cells = <0>;
             bindings = <&kp LEFT_GUI>, <&kp LC(A)>;
+        };
+
+        laughing: laughing {
+            compatible = "zmk,behavior-tap-dance";
+            label = "LAUGHING";
+            #binding-cells = <0>;
+            bindings = <&hihi>, <&haha>;
         };
     };
 
@@ -202,27 +214,27 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-               &kp Q  &kp W       &kp E      &kp R      &kp T  &kp Y            &kp U      &kp I         &kp O                     &kp P
-&kp ESCAPE     &kp A  &kp S       &kp D      &kp F      &kp G  &kp H            &kp J      &kp K         &kp L                     &kp SEMI            &kp LEFT
-&mt LCTRL TAB  &kp Z  &kp X       &kp C      &kp V      &kp B  &kp N            &kp M      &kp COMMA     &kp DOT                   &mt LEFT_ALT SLASH  &kp BACKSPACE
-                      &GUI_ctrlA  &lower_FN  &kp SPACE  &mo 3  &lt 1 BACKSPACE  &kp ENTER  &raise_mouse  &shift_capsword_capslock
+               &kp Q  &kp W       &kp E      &kp R      &kp T  &kp Y  &kp U      &kp I         &kp O                     &kp P
+&kp ESCAPE     &kp A  &kp S       &kp D      &kp F      &kp G  &kp H  &kp J      &kp K         &kp L                     &kp SEMI            &kp LCTRL
+&mt LCTRL TAB  &kp Z  &kp X       &kp C      &kp V      &kp B  &kp N  &kp M      &kp COMMA     &kp DOT                   &mt LEFT_ALT SLASH  &kp BACKSPACE
+                      &GUI_ctrlA  &lower_FN  &kp SPACE  &mo 3  &mo 4  &kp ENTER  &raise_mouse  &shift_capsword_capslock
             >;
         };
 
         lower_layer {
             display-name = "Lower Layer";
             bindings = <
-             &mkp MCLK        &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp SLASH     &kp N7        &kp N8        &kp N9        &kp MINUS
+             &trans           &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &kp SLASH     &kp N7        &kp N8        &kp N9        &kp MINUS
 &bootloader  &trans           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT        &kp ASTERISK  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS    &bootloader
 &kp TAB      &kp PRINTSCREEN  &kp HOME        &kp PAGE_DOWN   &kp PG_UP     &kp END          &kp COMMA     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &kp BACKSPACE
-                              &kp LEFT_GUI    &trans          &kp SPACE     &trans           &trans        &trans        &trans        &trans
+                              &kp LEFT_GUI    &trans          &kp SPACE     &trans           &trans        &kp RET       &trans        &kp NUMBER_0
             >;
         };
 
         raise_layer {
             display-name = "Raise Layer";
             bindings = <
-        &kp EXCLAMATION  &kp AT_SIGN    &kp HASH  &kp DOLLAR  &kp PERCENT  &kp LCTRL       &kp AMPERSAND  &kp ASTERISK  &kp GRAVE      &trans
+        &kp EXCLAMATION  &kp AT_SIGN    &kp HASH  &kp DOLLAR  &kp PERCENT  &kp LCTRL       &kp AMPERSAND  &kp ASTERISK  &kp GRAVE      &laughing
 &trans  &notEqual        &toRightArrow  &trans    &yankInVim  &https       &kp MINUS       &kp EQUAL      &kp SQT       &kp BACKSLASH  &kp LC(LA(DELETE))  &trans
 &trans  &trans           &trans         &trans    &trans      &trans       &kp UNDERSCORE  &kp PLUS       &kp TILDE     &kp PIPE       &kp QUESTION        &kp LG(L)
                          &trans         &trans    &trans      &trans       &trans          &trans         &trans        &trans
@@ -231,10 +243,10 @@
 
         FN {
             bindings = <
-        &kp F1   &kp F2        &kp F3  &kp F4  &kp F5   &kp LCTRL       &trans             &trans        &trans  &trans
-&trans  &kp F6   &kp F7        &kp F8  &kp F9  &kp F10  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &trans  &trans        &trans
-&trans  &kp F11  &kp F12       &trans  &trans  &trans   &trans          &trans             &trans        &trans  &kp LEFT_ALT  &to 0
-                 &kp LEFT_GUI  &trans  &trans  &trans   &trans          &trans             &trans        &trans
+        &kp F1   &kp F2        &kp F3  &kp F4  &kp F5   &trans  &trans             &trans        &trans          &trans
+&trans  &kp F6   &kp F7        &kp F8  &kp F9  &kp F10  &trans  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &trans          &trans        &kp LCTRL
+&trans  &kp F11  &kp F12       &trans  &trans  &trans   &trans  &trans             &trans        &trans          &kp LEFT_ALT  &to 0
+                 &kp LEFT_GUI  &trans  &trans  &trans   &trans  &trans             &trans        &kp LEFT_SHIFT
             >;
         };
 
