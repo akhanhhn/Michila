@@ -92,7 +92,7 @@ layers:
   - '#'
   - $
   - '%'
-  - $$mdi:apple-keyboard-control$$
+  - ^
   - '&'
   - '*'
   - {t: '`', s: '~'}
