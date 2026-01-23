@@ -65,7 +65,7 @@ layers:
   - {t: '5', s: '%'}
   - '6'
   - +
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:keyboard-tab$$
   - PRINTSCREEN
   - HOME
