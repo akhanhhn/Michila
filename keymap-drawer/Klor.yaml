@@ -344,5 +344,5 @@ combos:
 - p: [14, 27]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [Default Layer, Lower Layer, Raise Layer, FN]
-- p: [2, 3]
+- p: [13, 14]
   k: $$mdi:keyboard-tab$$
