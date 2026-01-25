@@ -175,6 +175,11 @@
             key-positions = <14 27>;
             layers = <0 1 2 3>;
         };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <2 3>;
+        };
     };
 
     macros {
