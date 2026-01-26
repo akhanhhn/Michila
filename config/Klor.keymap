@@ -49,6 +49,8 @@
 &sk {
     quick-release;
     lazy;
+
+    /delete-property/ ignore-modifiers;
 };
 
 / {
