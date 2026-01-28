@@ -98,11 +98,11 @@
             bindings = <&mo 1>, <&kp LC(C)>;
         };
 
-        ctrl_ctrlV: ctrl_ctrlV {
+        ctrlC_ctrlV_ctrl_: ctrlC_ctrlV_ctrl_ {
             compatible = "zmk,behavior-tap-dance";
-            label = "CTRL_CTRLV";
+            label = "CTRLC_CTRLV_CTRL_";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL>, <&kp LC(V)>;
+            bindings = <&mt LCTRL LC(C)>, <&kp LC(V)>;
         };
 
         mo_to_FN: mo_to_FN {
@@ -268,10 +268,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-             &kp Q  &kp W       &kp E         &kp R      &kp T      &kp Y         &kp U      &kp I      &kp O                     &kp P
-&kp ESCAPE   &kp A  &kp S       &kp D         &kp F      &kp G      &kp H         &kp J      &kp K      &kp L                     &kp SEMI   &kp BACKSPACE
-&ctrl_ctrlV  &kp Z  &kp X       &kp C         &kp V      &kp B      &kp N         &kp M      &kp COMMA  &kp DOT                   &kp SLASH  &kp LEFT_ALT
-                    &GUI_ctrlA  &lower_ctrlC  &kp SPACE  &mo_to_FN  &mo_to_MOUSE  &kp ENTER  &mo 2      &shift_capsword_capslock
+                    &kp Q  &kp W       &kp E         &kp R      &kp T      &kp Y         &kp U      &kp I      &kp O                     &kp P
+&kp ESCAPE          &kp A  &kp S       &kp D         &kp F      &kp G      &kp H         &kp J      &kp K      &kp L                     &kp SEMI   &kp BACKSPACE
+&ctrlC_ctrlV_ctrl_  &kp Z  &kp X       &kp C         &kp V      &kp B      &kp N         &kp M      &kp COMMA  &kp DOT                   &kp SLASH  &kp LEFT_ALT
+                           &GUI_ctrlA  &lower_ctrlC  &kp SPACE  &mo_to_FN  &mo_to_MOUSE  &kp ENTER  &mo 2      &shift_capsword_capslock
             >;
         };
 
