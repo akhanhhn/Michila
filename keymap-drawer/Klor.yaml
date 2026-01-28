@@ -23,7 +23,7 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&ctrl_ctrlV'
+  - '&ctrlC_ctrlV_ctrl_'
   - Z
   - X
   - C
