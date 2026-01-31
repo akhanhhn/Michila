@@ -37,10 +37,7 @@
     hold-time-ms = <3000>; // Only turn off it the key is held for 3 seconds or longer.
 };
 
-&mt {
-    tapping-term-ms = <300>;
-    flavor = "balanced";
-};
+&mt { flavor = "tap-preferred"; };
 
 &lt {
     tapping-term-ms = <300>;
