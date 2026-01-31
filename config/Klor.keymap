@@ -115,6 +115,20 @@
             #binding-cells = <0>;
             bindings = <&mo 4>, <&to 4>;
         };
+
+        haizz_huhu: haizz_huhu {
+            compatible = "zmk,behavior-tap-dance";
+            label = "HAIZZ_HUHU";
+            #binding-cells = <0>;
+            bindings = <&haizzzz>, <&huhu>;
+        };
+
+        GUIL_CtrlAltDel: GUIL_CtrlAltDel {
+            compatible = "zmk,behavior-tap-dance";
+            label = "GUIL_CTRLALTDEL";
+            #binding-cells = <0>;
+            bindings = <&kp LG(L)>, <&kp LC(LA(DEL))>;
+        };
     };
 
     combos {
@@ -252,6 +266,20 @@
             bindings = <&none &kp EQUAL &kp RPAR &kp RPAR &kp RPAR &kp RPAR &kp RPAR &kp RPAR &kp RPAR &kp RPAR>;
             label = "HAHA";
         };
+
+        huhu: huhu {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp COLON &kp LPAR &kp LPAR &kp LPAR &kp LPAR>;
+            label = "HUHU";
+        };
+
+        haizzzz: haizzzz {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp EQUAL &kp DOT &kp EQUAL>;
+            label = "HAIZZZZ";
+        };
     };
 
     keymap {
@@ -286,8 +314,8 @@
             display-name = "Raise Layer";
             bindings = <
         &kp EXCLAMATION  &kp AT_SIGN    &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET       &kp AMPERSAND  &kp ASTERISK  &kp GRAVE      &laughing
-&trans  &notEqual        &toRightArrow  &trans    &yankInVim  &https       &kp MINUS       &kp EQUAL      &kp SQT       &kp BACKSLASH  &trans        &kp LC(LA(DEL))
-&trans  &trans           &trans         &trans    &trans      &trans       &kp UNDERSCORE  &kp PLUS       &kp TILDE     &kp PIPE       &kp QUESTION  &kp LG(L)
+&trans  &notEqual        &toRightArrow  &trans    &yankInVim  &https       &kp MINUS       &kp EQUAL      &kp SQT       &kp BACKSLASH  &haizz_huhu   &trans
+&trans  &trans           &trans         &trans    &trans      &trans       &kp UNDERSCORE  &kp PLUS       &kp TILDE     &kp PIPE       &kp QUESTION  &GUIL_CtrlAltDel
                          &trans         &trans    &trans      &trans       &trans          &trans         &trans        &trans
             >;
         };
