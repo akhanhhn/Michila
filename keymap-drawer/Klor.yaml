@@ -107,8 +107,8 @@ layers:
   - {t: '=', s: +}
   - {t: '''', s: '"'}
   - {t: \, s: '|'}
+  - '&haizz_huhu'
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+Alt+$$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -120,7 +120,7 @@ layers:
   - '~'
   - '|'
   - '?'
-  - Gui+L
+  - '&GUIL_CtrlAltDel'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
