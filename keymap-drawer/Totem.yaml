@@ -31,9 +31,9 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '$$mdi:apple-keyboard-option$$', s: '?'}
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
-  - '&dance_GUI_ctrlA'
-  - {t: '$$mdi:keyboard-esc$$', h: Lower Layer}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-control$$'}
+  - '&GUI_ctrlA'
+  - '&lower_ctrlC'
   - $$mdi:keyboard-space$$
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:mouse-right-click-outline$$
@@ -74,7 +74,7 @@ layers:
   - {t: ., s: '>'}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:apple-keyboard-command$$
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -321,7 +321,7 @@ combos:
 - p: [24, 13]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
   l: [Default Layer, Lower Layer, Raise Layer, '3']
-- p: [0, 1]
+- p: [12, 13]
   k: $$mdi:keyboard-tab$$
 - p: [24, 25]
   k: {t: '3', h: toggle}
