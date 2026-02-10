@@ -151,7 +151,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Default Layer, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
   - F11
   - F12
@@ -324,11 +324,16 @@ combos:
   k: ':'
 - p: [23, 24]
   k: {t: '$$mdi:backspace$$', type: backspace}
+  l: [Default Layer, Lower Layer, Raise Layer, FN]
 - p: [24, 25]
   k: $$mdi:backspace-reverse-outline$$
+  l: [Default Layer, Lower Layer, Raise Layer, FN]
 - p: [25, 26]
   k: $$mdi:apple-keyboard-shift$$
+  l: [Default Layer, Lower Layer, Raise Layer, FN]
 - p: [14, 27]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
+  l: [Default Layer, Lower Layer, Raise Layer, FN]
 - p: [13, 14]
   k: $$mdi:keyboard-tab$$
+  l: [Default Layer, Lower Layer, Raise Layer, FN]
