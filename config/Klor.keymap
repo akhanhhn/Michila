@@ -169,26 +169,31 @@
         backSpace {
             bindings = <&kp BACKSPACE>;
             key-positions = <23 24>;
+            layers = <0 1 2 3>;
         };
 
         delete {
             bindings = <&kp DELETE>;
             key-positions = <24 25>;
+            layers = <0 1 2 3>;
         };
 
         shift {
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <25 26>;
+            layers = <0 1 2 3>;
         };
 
         return {
             bindings = <&kp RET>;
             key-positions = <14 27>;
+            layers = <0 1 2 3>;
         };
 
         tab {
             bindings = <&kp TAB>;
             key-positions = <13 14>;
+            layers = <0 1 2 3>;
         };
     };
 
@@ -291,7 +296,7 @@
         FN {
             bindings = <
         &kp F1   &kp F2   &kp F3  &kp F4  &kp F5   &trans  &trans  &trans  &trans  &trans
-&trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F6   &kp F7   &kp F8  &kp F9  &kp F10  &trans  &trans  &trans  &trans  &trans  &to 0
 &trans  &kp F11  &kp F12  &trans  &trans  &trans   &trans  &trans  &trans  &trans  &trans  &trans
                  &trans   &trans  &trans  &trans   &trans  &trans  &trans  &trans
             >;
