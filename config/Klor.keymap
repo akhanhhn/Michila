@@ -303,7 +303,7 @@
             >;
         };
 
-        mouse {
+        mouse_layer {
             bindings = <
         &mkp MCLK  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP     &msc SCRL_RIGHT  &kp C_VOLUME_UP  &trans     &trans  &trans  &trans
 &trans  &mkp MB5   &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp HOME         &kp C_VOL_DN     &mkp LCLK  &trans  &trans  &trans  &to 0
