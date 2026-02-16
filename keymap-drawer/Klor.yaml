@@ -21,7 +21,7 @@ layers:
   - J
   - K
   - L
-  - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
+  - {t: ;, h: 'Gui+$$mdi:apple-keyboard-control$$', s: ':'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&ctrl_ctrlV'
   - Z
