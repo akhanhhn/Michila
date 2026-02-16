@@ -34,7 +34,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-option$$
+  - '&LALT_GUInCtrl'
   - '&GUI_ctrlA'
   - '&lower_ctrlC'
   - $$mdi:keyboard-space$$
