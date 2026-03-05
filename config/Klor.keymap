@@ -119,6 +119,13 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_ALT>, <&kp LG(LCTRL)>;
         };
+
+        https_http: https_http {
+            compatible = "zmk,behavior-tap-dance";
+            label = "HTTPS_HTTP";
+            #binding-cells = <0>;
+            bindings = <&https>, <&http>;
+        };
     };
 
     combos {
@@ -261,6 +268,13 @@
             bindings = <&none &kp EQUAL &kp DOT &kp EQUAL>;
             label = "HAIZZZZ";
         };
+
+        http: http {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp H &kp T &kp T &kp P &kp COLON &kp FSLH &kp FSLH>;
+            label = "HTTP";
+        };
     };
 
     keymap {
@@ -295,7 +309,7 @@
             display-name = "Raise Layer";
             bindings = <
         &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET       &kp AMPERSAND  &kp ASTERISK  &kp GRAVE      &laughing
-&trans  &notEqual        &rightArrow  &trans    &yankInVim  &https       &kp MINUS       &kp EQUAL      &kp SQT       &kp BACKSLASH  &haizz_huhu   &trans
+&trans  &notEqual        &rightArrow  &trans    &yankInVim  &https_http  &kp MINUS       &kp EQUAL      &kp SQT       &kp BACKSLASH  &haizz_huhu   &trans
 &trans  &trans           &trans       &trans    &trans      &trans       &kp UNDERSCORE  &kp PLUS       &kp TILDE     &kp PIPE       &kp QUESTION  &GUIL_CtrlAltDel
                          &trans       &trans    &trans      &trans       &trans          &trans         &trans        &trans
             >;
