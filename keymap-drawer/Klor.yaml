@@ -102,7 +102,7 @@ layers:
   - '&rightArrow'
   - {t: '$$mdi:transfer$$', type: trans}
   - '&yankInVim'
-  - '&https'
+  - '&https_http'
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '''', s: '"'}
