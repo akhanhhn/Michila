@@ -133,7 +133,7 @@
 
         doubleQuotes {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <5 6>;
+            key-positions = <6 8>;
         };
 
         leftParenthesis {
@@ -168,12 +168,12 @@
 
         lessThan {
             bindings = <&kp LESS_THAN>;
-            key-positions = <16 17>;
+            key-positions = <17 19>;
         };
 
         greaterThan {
             bindings = <&kp GREATER_THAN>;
-            key-positions = <28 29>;
+            key-positions = <29 31>;
         };
 
         colon {
