@@ -142,7 +142,7 @@
 
         doubleQuotes {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <5 6>;
+            key-positions = <6 8>;
             layers = <0 1 2 3>;
         };
 
@@ -184,13 +184,13 @@
 
         lessThan {
             bindings = <&kp LESS_THAN>;
-            key-positions = <16 17>;
+            key-positions = <17 19>;
             layers = <0 1 2 3>;
         };
 
         greaterThan {
             bindings = <&kp GREATER_THAN>;
-            key-positions = <28 29>;
+            key-positions = <29 31>;
             layers = <0 1 2 3>;
         };
 
@@ -227,6 +227,11 @@
         tab {
             bindings = <&kp TAB>;
             key-positions = <13 14>;
+        };
+
+        CapsLock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <4 5>;
         };
     };
 
