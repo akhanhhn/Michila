@@ -302,7 +302,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [5, 6]
+- p: [6, 8]
   k: '"'
   l: [Default Layer, Lower Layer, Raise Layer, FN]
 - p: [6, 7]
@@ -323,10 +323,10 @@ combos:
 - p: [30, 31]
   k: '}'
   l: [Default Layer, Lower Layer, Raise Layer, FN]
-- p: [16, 17]
+- p: [17, 19]
   k: <
   l: [Default Layer, Lower Layer, Raise Layer, FN]
-- p: [28, 29]
+- p: [29, 31]
   k: '>'
   l: [Default Layer, Lower Layer, Raise Layer, FN]
 - p: [19, 20]
@@ -346,3 +346,5 @@ combos:
   l: [Default Layer, Lower Layer, Raise Layer, FN]
 - p: [13, 14]
   k: $$mdi:keyboard-tab$$
+- p: [4, 5]
+  k: $$mdi:apple-keyboard-caps$$
