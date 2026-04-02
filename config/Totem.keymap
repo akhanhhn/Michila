@@ -147,8 +147,8 @@
         compatible = "zmk,combos";
 
         doubleQuotes {
-            bindings = <&kp RS(DQT)>;
-            key-positions = <5 6>;
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <6 8>;
             layers = <0 2 1 3>;
         };
 
@@ -184,12 +184,12 @@
 
         lessThan {
             bindings = <&kp LESS_THAN>;
-            key-positions = <15 16>;
+            key-positions = <16 18>;
         };
 
         greaterThan {
             bindings = <&kp GREATER_THAN>;
-            key-positions = <25 26>;
+            key-positions = <26 28>;
         };
 
         colon {
@@ -230,6 +230,11 @@
             bindings = <&to 3>;
             key-positions = <24 25>;
             layers = <0 1 2 3>;
+        };
+
+        capslock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <4 5>;
         };
     };
 
