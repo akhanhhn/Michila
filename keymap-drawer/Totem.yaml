@@ -39,7 +39,7 @@ layers:
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&raise_FN_mouse_layer'
-  - '&shift_capsWord_capsLocks'
+  - '&shiftSticky'
   - {t: '$$mdi:backspace$$', type: backspace}
   Lower Layer:
   - F2
@@ -203,7 +203,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&shift_capsWord_capsLocks'
+  - '&shiftSticky'
   - {t: Default Layer, h: toggle}
   '5':
   - {t: '$$mdi:transfer$$', type: trans}
@@ -328,3 +328,5 @@ combos:
   l: [Default Layer, Lower Layer, Raise Layer, '3']
 - p: [4, 5]
   k: $$mdi:apple-keyboard-caps$$
+- p: [14, 15]
+  k: $$mdi:alpha-w-box$$
