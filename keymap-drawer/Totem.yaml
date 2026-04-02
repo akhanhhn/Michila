@@ -288,8 +288,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [5, 6]
-  k: Sft+"
+- p: [6, 8]
+  k: '"'
   l: [Default Layer, Raise Layer, Lower Layer, '3']
 - p: [6, 7]
   k: (
@@ -303,9 +303,9 @@ combos:
   k: '{'
 - p: [27, 28]
   k: '}'
-- p: [15, 16]
+- p: [16, 18]
   k: <
-- p: [25, 26]
+- p: [26, 28]
   k: '>'
 - p: [18, 19]
   k: ':'
@@ -326,3 +326,5 @@ combos:
 - p: [24, 25]
   k: {t: '3', h: toggle}
   l: [Default Layer, Lower Layer, Raise Layer, '3']
+- p: [4, 5]
+  k: $$mdi:apple-keyboard-caps$$
