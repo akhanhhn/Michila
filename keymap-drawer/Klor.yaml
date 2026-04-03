@@ -42,7 +42,7 @@ layers:
   - '&mo_to_Mouse'
   - RETURN
   - Raise Layer
-  - '&shift_capsword_capslok'
+  - '&shiftSticky'
   Lower Layer:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-left$$
@@ -337,3 +337,7 @@ combos:
 - p: [13, 14]
   k: $$mdi:keyboard-tab$$
   l: [Default Layer, Lower Layer, Raise Layer, FN]
+- p: [4, 5]
+  k: $$mdi:apple-keyboard-caps$$
+- p: [15, 16]
+  k: $$mdi:alpha-w-box$$
