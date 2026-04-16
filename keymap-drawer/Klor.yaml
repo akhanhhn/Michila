@@ -44,7 +44,7 @@ layers:
   - Raise Layer
   - '&shiftSticky'
   Lower Layer:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+Ctl+$$mdi:apple-keyboard-shift$$
   - $$mdi:pan-left$$
   - $$mdi:pan-down$$
   - $$mdi:pan-up$$
