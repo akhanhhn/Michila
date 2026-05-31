@@ -179,10 +179,10 @@ layers:
   - $$mdi:pan-up$$
   - $$mdi:pan-right$$
   - $$mdi:volume-high$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-option$$
+  - RIGHT GUI
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
   - $$mdi:mouse-left-click-outline$$
