@@ -82,7 +82,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "CTRL_CTRLV";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL>, <&kp LC(V)>;
+            bindings = <&kp RCTRL>, <&kp LC(V)>;
         };
 
         mo_to_FN: mo_to_FN {
