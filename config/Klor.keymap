@@ -82,7 +82,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "CTRL_CTRLV";
             #binding-cells = <0>;
-            bindings = <&kp RCTRL>, <&kp LC(V)>;
+            bindings = <&kp LCTRL>, <&kp LC(V)>;
         };
 
         mo_to_FN: mo_to_FN {
@@ -336,10 +336,10 @@
 
         mouse_layer {
             bindings = <
-        &mkp MCLK  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP     &msc SCRL_RIGHT  &kp C_VOLUME_UP  &trans     &trans  &trans  &trans
-&trans  &mkp MB5   &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp HOME         &kp C_VOL_DN     &mkp LCLK  &trans  &trans  &trans  &to 0
-&trans  &mkp MB4   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp END          &kp K_MUTE       &trans     &trans  &trans  &trans  &trans
-                   &trans          &trans          &trans           &bootloader      &trans           &trans     &trans  &trans
+        &mkp MCLK  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP     &msc SCRL_RIGHT  &kp C_VOLUME_UP  &kp RIGHT_ALT  &kp RIGHT_GUI  &kp RSHIFT  &kp RIGHT_CONTROL
+&trans  &mkp MB5   &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp HOME         &kp C_VOL_DN     &mkp LCLK      &trans         &trans      &trans             &to 0
+&trans  &mkp MB4   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp END          &kp K_MUTE       &trans         &trans         &trans      &trans             &trans
+                   &trans          &trans          &trans           &bootloader      &trans           &trans         &trans         &trans
             >;
         };
 
