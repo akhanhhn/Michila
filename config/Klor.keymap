@@ -296,7 +296,7 @@
             #binding-cells = <0>;
             wait-ms = <20>;
             tap-ms = <30>;
-            bindings = <&macro_tap &kp N9 &kp N9 &kp N9 &kp N9 &kp N0 &kp N0 &kp N1 &kp N1 &kp N9 &kp N4 &kp SPACE &kp T &kp E &kp C &kp H &kp C &kp O &kp M &kp B &kp A &kp N &kp K &kp SPACE &kp N &kp G &kp O &kp SPACE &kp T &kp H &kp U &kp SPACE &kp H &kp A>, <&macro_wait_time 50>, <&macro_release &kp A>;
+            bindings = <&macro_tap &kp N9 &kp N9 &kp N9 &kp N9 &kp N0 &kp N0 &kp N1 &kp N1 &kp N9 &kp N4 &kp SPACE &kp T &kp E &kp C &kp H &kp C &kp O &kp M &kp B &kp A &kp N &kp K &kp SPACE &kp N &kp G &kp O &kp SPACE &kp T &kp H &kp U &kp SPACE &kp H &kp A>, <&macro_tap &kp SPACE &kp BACKSPACE>;
             label = "TESTCHOSOP";
         };
     };
