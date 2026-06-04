@@ -220,6 +220,11 @@
             bindings = <&caps_word>;
             key-positions = <15 16>;
         };
+
+        combotest {
+            bindings = <&testchosop>;
+            key-positions = <2 3>;
+        };
     };
 
     macros {
@@ -284,6 +289,13 @@
             #binding-cells = <0>;
             bindings = <&none &kp H &kp T &kp T &kp P &kp COLON &kp FSLH &kp FSLH>;
             label = "HTTP";
+        };
+
+        testchosop: testchosop {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp N9 &kp N9 &kp N9 &kp N9 &kp N0 &kp N0 &kp N1 &kp N1 &kp N9 &kp N4 &kp SPACE &kp T &kp E &kp C &kp H &kp C &kp O &kp M &kp B &kp A &kp N &kp K &kp SPACE &kp N &kp G &kp O &kp SPACE &kp T &kp H &kp U &kp SPACE &kp H &kp A>;
+            label = "TESTCHOSOP";
         };
     };
 
