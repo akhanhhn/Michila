@@ -341,5 +341,3 @@ combos:
   k: $$mdi:apple-keyboard-caps$$
 - p: [15, 16]
   k: $$mdi:alpha-w-box$$
-- p: [2, 3]
-  k: '&testchosop'
